@@ -95,3 +95,27 @@
     text-align: center;
   }
 }
+
+/* Estilos para dispositivos móviles en modo horizontal */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .boton {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .texto {
+    font-size: 12px;
+  }
+}
+
+/* Estilos para dispositivos móviles en modo vertical */
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  .boton {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .texto {
+    font-size: 16px;
+  }
+}
